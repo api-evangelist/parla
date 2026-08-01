@@ -1,7 +1,24 @@
 aid: parla
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/parla.png
 name: Parla
-description: Parla is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Parla (originally launched as Adia) was a London-based digital reproductive-health
+  startup that gave women access to at-home fertility blood tests, an AI-enabled fertility
+  platform, educational content, and an expert-led peer community around conception, pregnancy,
+  and loss. Backed by Seedcamp, Zinc VC, and other UK investors, Parla was acquired by
+  Holland & Barrett International in April 2022; the myparla.com domain now redirects to
+  hollandandbarrett.com and the company operates no independent public API, developer portal,
+  or documentation surface.
 url: https://raw.githubusercontent.com/api-evangelist/parla/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +26,20 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-status-detail: Acquired by Holland & Barrett International (2022-04-22); myparla.com 301-redirects to hollandandbarrett.com
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Health
+- Femtech
+- Fertility
+- Reproductive Health
+- Digital Health
+- Consumer
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,8 @@ maintainers:
 common:
 - type: Website
   url: http://myparla.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
